@@ -46,7 +46,7 @@ local function place3()
   if game:GetService("Workspace")["_wave_num"].Value < getgenv().wavetolose then
         local args = {
     [1] = getgenv().id,
-    [2] = CFrame.new(-160.029373, 24.3086395, 0 + math.random(-5,5)) * CFrame.Angles(0, -0, -0)
+    [2] = CFrame.new(-160.029373, 24.3086395, 3003.98389 + math.random(-5,5)) * CFrame.Angles(0, -0, -0)
 }
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.spawn_unit:InvokeServer(unpack(args))
