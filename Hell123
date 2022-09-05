@@ -33,7 +33,7 @@ for i, v in next, game:GetService("Workspace")["_UNITS"]:GetChildren() do
     if v.Name == getgenv().unit then
         local args = {
     [1] = v._stats.uuid.Value,
-    [2] = CFrame.new(-2594.89258, 24.5068722, 4.01112556 + math.random(-5,5)) * CFrame.Angles(0, -0, -0)
+    [2] = CFrame.new(-171.66748, 24.3086395, 2959.57007 + math.random(-5,5)) * CFrame.Angles(0, -0, -0)
 }
 
 game:GetService("ReplicatedStorage").endpoints.client_to_server.spawn_unit:InvokeServer(unpack(args))
@@ -203,7 +203,7 @@ end
 local function Create() -- Creates the map
 local args = {
     [1] = "_lobbytemplategreen6",
-    [2] = "hueco_infinite",
+    [2] = "hxhant_infinite",
     [3] = true,
     [4] = "Hard"
 }
