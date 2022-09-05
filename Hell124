@@ -27,7 +27,7 @@ game:GetService("ReplicatedStorage").endpoints.client_to_server.vote_start:Invok
 end
 end
 
-local function place() -- place function if there is another erwin on the map
+local function place() -- erwin
 if game:GetService("Workspace")["_wave_num"].Value < getgenv().wavetolose then
 for i, v in next, game:GetService("Workspace")["_UNITS"]:GetChildren() do
     if v.Name == getgenv().unit then
@@ -42,7 +42,7 @@ end
 end
 end
 
-local function place3() 
+local function place3() -- erwin
   if game:GetService("Workspace")["_wave_num"].Value < getgenv().wavetolose then
         local args = {
     [1] = getgenv().id,
@@ -68,7 +68,7 @@ end
 end
 end
 ---
-local function place5() -- place function if there is another erwin on the map
+local function place5() -- main dps
 if game:GetService("Workspace")["_wave_num"].Value < getgenv().wavetolose then
 for i, v in next, game:GetService("Workspace")["_UNITS"]:GetChildren() do
     if v.Name == getgenv().unit2 then
@@ -83,7 +83,7 @@ end
 end
 end
 
-local function place6() 
+local function place6() -- main dps
   if game:GetService("Workspace")["_wave_num"].Value < getgenv().wavetolose then
         local args = {
     [1] = getgenv().id2,
@@ -110,7 +110,7 @@ end
 end
 
 ---
-local function place7() -- place function if there is another erwin on the map
+local function place7() -- speed
 if game:GetService("Workspace")["_wave_num"].Value < getgenv().wavetolose then
 for i, v in next, game:GetService("Workspace")["_UNITS"]:GetChildren() do
     if v.Name == getgenv().unit3 then
@@ -125,7 +125,7 @@ end
 end
 end
 
-local function place8() 
+local function place8() -- speed
   if game:GetService("Workspace")["_wave_num"].Value < getgenv().wavetolose then
         local args = {
     [1] = getgenv().id3,
@@ -151,7 +151,7 @@ end
 end
 end
 
-local function place9() -- place function if there is another erwin on the map
+local function place9() -- speed
 if game:GetService("Workspace")["_wave_num"].Value < getgenv().wavetolose then
 for i, v in next, game:GetService("Workspace")["_UNITS"]:GetChildren() do
     if v.Name == getgenv().unit4 then
@@ -166,7 +166,7 @@ end
 end
 end
 
-local function place10() 
+local function place10() -- speed
   if game:GetService("Workspace")["_wave_num"].Value < getgenv().wavetolose then
         local args = {
     [1] = getgenv().id4,
