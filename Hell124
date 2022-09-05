@@ -13,7 +13,7 @@ end)
 
 local function WatermarkForIdiotYter() -- If the yter is stupid they cant remove this
     game.StarterGui:SetCore("SendNotification", {
-Title = "Made by Diego"; 
+Title = "Made by Dado"; 
 Text = getgenv().id.." Is your petid"; 
 Icon = ""; 
 Duration = 5; 
